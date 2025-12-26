@@ -1,0 +1,32 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: var(--dark-color);
+  padding: 20px;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.modal-heading {
+  color: var(--light-color);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-actions * {
+  width: 100%;
+}

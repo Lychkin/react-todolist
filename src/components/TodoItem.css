@@ -1,0 +1,16 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  color: var(--light-color);
+}
+
+.todo-item:not(:only-child) {
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.todo-item__icons {
+  display: flex;
+  gap: 5px;
+}
