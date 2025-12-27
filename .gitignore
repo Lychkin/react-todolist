@@ -11,3 +11,6 @@ yarn-error.log*
 # editor / IDE
 .vscode/
 .idea/
+
+# production
+/build
